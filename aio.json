@@ -1,0 +1,8 @@
+{
+  "add": {
+    "parameters": [
+      { "name": "a", "required": true, "type": "integer" },
+      { "name": "b", "required": true, "type": "integer" }
+    ]
+  }
+}
