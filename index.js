@@ -1,7 +1,4 @@
+const { add, interval, subtract } = require('./src/math');
 
-function add (a, b) {
-    return a + b;
-}
-
-module.exports = { add };
+module.exports = { add, interval, subtract };
 
