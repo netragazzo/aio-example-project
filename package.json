@@ -1,0 +1,25 @@
+{
+  "name": "aio-example-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  },
+  "scripts": {
+    "test": "mocha ./src/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netragazzo/aio-example-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/netragazzo/aio-example-project/issues"
+  },
+  "homepage": "https://github.com/netragazzo/aio-example-project#readme"
+}

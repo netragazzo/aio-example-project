@@ -1,10 +1,22 @@
 {
   "add": {
     "method": "GET",
-    "path": "/add/:a/:b",
+    "path": "/add/:a/:b/:c",
     "parameters": [
       { "name": "a", "required": true, "type": "integer" },
-      { "name": "b", "required": true, "type": "integer" }
+      { "name": "b", "required": true, "type": "integer" },
+      { "name": "c", "required": true, "type": "integer" }
+    ],
+    "returns": [
+      { "status": 200, "fields": [{ "name": "result", "required": true, "type": "integer" }]},
+      { "status": 400, "fields": [ { "name": "error", "required": true, "type": "string" }]}
+    ]
+  },
+  "count": {
+    "method": "GET",
+    "path": "/count/:n",
+    "parameters": [
+      { "name": "n", "required": true, "type": "integer" }
     ],
     "returns": [
       { "status": 200, "fields": [{ "name": "result", "required": true, "type": "integer" }]},

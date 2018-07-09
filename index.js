@@ -1,4 +1,5 @@
-const { add, interval, subtract } = require('./src/math');
+const { add, interval, subtract, count } = require('./src/math');
+const { updateProfile, getProfile } = require('./src/profle');
 
-module.exports = { add, interval, subtract };
+module.exports = { add, interval, subtract, count, updateProfile, getProfile };
 
